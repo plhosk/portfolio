@@ -1,0 +1,26 @@
+.header {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.listDiv {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.itemDiv {
+   display: flex;
+   flex-flow: column nowrap;
+   align-items: center;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.thumbnail {
+  max-width: 300px;
+}
