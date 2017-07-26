@@ -1,26 +1,26 @@
-.header {
+.Projects-header {
   font-size: 1.5em;
   text-align: center;
 }
 
-.listDiv {
+.Projects-listDiv {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: flex-start;
 }
 
-.itemDiv {
+.Projects-itemDiv {
    display: flex;
    flex-flow: column nowrap;
    align-items: center;
 }
 
-.title {
+.Projects-title {
   font-weight: bold;
   font-size: 1.2em;
 }
 
-.thumbnail {
+.Projects-thumbnail {
   max-width: 300px;
 }

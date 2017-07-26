@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './ProjectLinks.css'
+import './Projects.css'
 
 const projectList = [
   /* template for project entry
@@ -19,24 +19,24 @@ const projectList = [
   },
   {
     title: 'Game of Life (local)',
-    href: '/gameoflife/index.html',
+    href: '/gameoflife/gameoflife.html',
     thumbnail300: '',
     description: 'Locally-hosted Game of Life (same as Codepen version)',
   },
 ]
 
-const ProjectLinks = () => (
+const Projects = () => (
   <div>
-    <div className="header">
+    <div className="Projects-header">
       Portfolio Projects
     </div>
-    <div className="listDiv">
+    <div className="Projects-listDiv">
       { projectList.length > 0 && (
         projectList.map(project => (
-          <div className="itemDiv">
-            <img className="thumbnail" src={project.thumbnail300} alt={project.title} />
-            <div className="title"><a href={project.href}>{project.title}</a></div>
-            <div className="description">{project.description}</div>
+          <div key={project.href} className="Projects-itemDiv">
+            <img className="Projects-thumbnail" src={project.thumbnail300} alt={project.title} />
+            <div className="Projects-title"><a href={project.href}>{project.title}</a></div>
+            <div className="Projects-description">{project.description}</div>
           </div>
         ))
       )}
@@ -44,4 +44,4 @@ const ProjectLinks = () => (
   </div>
 )
 
-export default ProjectLinks
+export default Projects

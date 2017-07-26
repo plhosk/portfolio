@@ -1,0 +1,25 @@
+.Introduction-outer-div {
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+  margin: 40px 0;
+  font-size: 1.2em;
+  /* background-color: #e2e8e4; */
+  background-color: #f9f9ff;
+}
+
+.Introduction-main-title {
+  font-size: 3em;
+  line-height: 1.3em;
+  color: #2d3033;
+}
+
+.Introduction-subtitle {
+  font-size: 1.75em;
+  margin-bottom: 10px;
+  color: #537072;
+}
+
+.Introduction-description {
+  font-size: 1.25em;
+  color: #c5beba;
+}

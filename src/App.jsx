@@ -1,19 +1,41 @@
 import React from 'react'
-import logo from './logo.svg'
-import './App.css'
+import { Layout, Menu } from 'antd'
 
-import ProjectLinks from './ProjectLinks'
+import './App.css'
+import Introduction from './Introduction'
+import Projects from './Projects'
+import logo from './logo.svg'
+
+const { Header, Footer, Content } = Layout
 
 const App = () => (
   <div className="App">
-    <div className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <h2>Welcome to React</h2>
-    </div>
-    <p className="App-intro">
-      To get started, edit <code>src/App.js</code> and save to reload.
-    </p>
-    <ProjectLinks />
+    <Layout>
+      <Header>
+        <img src={logo} className="App-logo" alt="logo" />
+        <Menu
+          theme="dark"
+          mode="horizontal"
+          selectable={false}
+          // defaultSelectedKeys={['1']}
+          className="App-nav-menu"
+        >
+          <Menu.Item key="1">Top</Menu.Item>
+          <Menu.Item key="2">Portfolio</Menu.Item>
+          <Menu.Item key="3">Contact</Menu.Item>
+        </Menu>
+      </Header>
+      <Content className="App-content">
+
+        <Introduction />
+
+        <Projects />
+
+      </Content>
+      <Footer>
+        2017 Paul Hoskinson
+      </Footer>
+    </Layout>
   </div>
 )
 

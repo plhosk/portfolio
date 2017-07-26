@@ -1,4 +1,9 @@
 build/
-public/gameoflife/
-*.test.js
+config/
+scripts/
+
 registerServiceWorker.js
+*.test.js
+
+public/gameoflife/
+
