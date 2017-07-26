@@ -26,11 +26,11 @@ const projectList = [
 ]
 
 const Projects = () => (
-  <div>
+  <div className="Projects-outer-div">
     <div className="Projects-header">
-      Portfolio Projects
+      Portfolio
     </div>
-    <div className="Projects-listDiv">
+    <div className="Projects-list-div">
       { projectList.length > 0 && (
         projectList.map(project => (
           <div key={project.href} className="Projects-itemDiv">

@@ -1,16 +1,21 @@
+.Projects-outer-div {
+  margin: 20px 0;
+}
+
 .Projects-header {
-  font-size: 1.5em;
+  font-family: 'Kanit', sans-serif;
+  font-size: 2em;
   text-align: center;
 }
 
-.Projects-listDiv {
+.Projects-list-div {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: flex-start;
 }
 
-.Projects-itemDiv {
+.Projects-item-div {
    display: flex;
    flex-flow: column nowrap;
    align-items: center;
