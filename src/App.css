@@ -3,20 +3,41 @@
   font-family: 'Roboto', sans-serif;
 }
 
+@media screen and (max-width: 420px) {
+  .App {
+    font-size: 1.1em;
+  }
+}
+
 /* .App-layout {
 } */
 
-.App-logo {
+/* .App-logo {
   width: 120px;
   height: 31px;
   background: #333;
   border-radius: 6px;
   margin: 16px 24px 16px 0;
   float: left;
+} */
+
+.App-home {
+  font-family: 'Kanit', sans-serif;
+  font-size: 2em;
+  line-height: 1.9em;
+}
+
+.App-home1 {
+  color: #92aac7;
+}
+
+.App-home2 {
+  color: #fdd475;
 }
 
 .App-nav-menu {
-  line-height: 64px;
+   line-height: 64px;
+   margin-left: -48px;
 }
 
 .App-content {
@@ -26,6 +47,13 @@
 
 .App-title-divider {
   background-color: #fdd475;
-  height: 12px;
+   height: 0px; 
+  /* height: 0px; */
   margin: 0 auto;
 }
+
+ @media screen and (max-width: 550px) {
+  .App-title-divider {
+    height: 10px;
+  }
+} 

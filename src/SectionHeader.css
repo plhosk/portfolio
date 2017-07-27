@@ -1,0 +1,31 @@
+.SectionHeader-main {
+  margin: 20px auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center; 
+  /* margin: 10px 0; */
+}
+
+.SectionHeader-background {
+  flex-grow: 2;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  height: 65px;
+}
+
+.SectionHeader-background-color {
+  height: 10px;
+}
+
+.SectionHeader-title {
+  font-family: 'Kanit', sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+  background-color: white;
+  padding: 0 20px;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 40px;
+  margin: 0 -3px;
+}

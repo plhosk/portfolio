@@ -2,18 +2,28 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
+  background-image: url('/pano1.jpg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .Introduction-text-content {
   font-family: 'Kanit', sans-serif;
-  margin: 30px 20px;
+  margin: 0;
+  padding: 10px;
   font-size: 1.2em;
-   /* background-color: #e2e8e4;  */
-   /* background-color: #f9f9ff;  */
-   /* background-color: transparent;
-   background-position: right -100px;
-   background-image: url('/hill.jpg'); */
+  background-color: #fff;
+  border-left: 10px solid #fdd475;
+  border-right: 10px solid #fdd475;
 }
+
+/* @media screen and (max-width: 490px) {
+  .Introduction-text-content {
+    border: 0;
+  }
+} */
 
 .Introduction-main-title {
   text-align: center;

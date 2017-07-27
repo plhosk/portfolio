@@ -19,7 +19,6 @@ const Introduction = () => (
         using the latest open-source technologies.
       </div>
     </div>
-    <div className="Introduction-side-image-div" />
   </div>
 )
 

@@ -1,31 +1,53 @@
 .Projects-outer-div {
-  margin: 20px 0;
-}
-
-.Projects-header {
-  font-family: 'Kanit', sans-serif;
-  font-size: 2em;
-  text-align: center;
+  margin: 10px 0;
 }
 
 .Projects-list-div {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: flex-start;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.Projects-list-div a {
+  color: inherit;
 }
 
 .Projects-item-div {
    display: flex;
    flex-flow: column nowrap;
-   align-items: center;
+    align-items: center; 
+   /* border: 1px solid grey; */
+   width: 278px;
+   margin: 10px 10px;
+   padding: 10px;
+   transition: all 0.2s ease;
+   border-radius: 10px;
+   /* border: 10px solid white; */
+}
+
+.Projects-item-div:hover {
+   /* background-color: #f4cc70;  */
+   background-color: #F7D994;
+   /* border: 10px solid #fbcd4d; */
 }
 
 .Projects-title {
   font-weight: bold;
   font-size: 1.2em;
+  margin: 4px;
+  color: #4d648d;
 }
 
 .Projects-thumbnail {
-  max-width: 300px;
+  max-width: 256px;
+  border: 1px solid #ccc;
+  /* border-radius: 2px; */
+}
+
+.Projects-description {
+  font-size: 1.05em;
+  text-align: center;
 }
