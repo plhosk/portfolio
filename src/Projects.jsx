@@ -103,23 +103,19 @@ const projectList = [
   },
 ]
 
-// const handleItemClick = (e) => {
-//   e.preventDefault()
-//   window.location = e.currentTarget.dataset.url
-// }
-
 const Projects = () => (
   <div className="Projects-outer-div">
+    <div className="Projects-blurb">
+      Check out some of my projects below.
+      They range from simple Javascript demos to full-stack
+      React + Redux applications with a Node.js backend and MongoDB database.
+    </div>
     <div className="Projects-list-div">
       { projectList.length > 0 && (
         projectList.map(project => (
           <a key={project.url} href={project.url}>
             <div
               className="Projects-item-div"
-              // data-url={project.url}
-              // onClick={handleItemClick}
-              // role="button"
-              // tabIndex={0}
             >
               <img
                 className="Projects-thumbnail"

@@ -14,10 +14,22 @@ const SectionHeader = (props) => {
     </div>
   )
 
+  const HeaderLineSpacer = () => (
+    <div
+      className="SectionHeader-background"
+      style={{ width: 58 }}
+    >
+      <div
+        className="SectionHeader-background-color"
+        style={{ backgroundColor: props.color }}
+      />
+    </div>
+  )
+
   return (
     <div className="SectionHeader-main">
       <HeaderLine />
-      <HeaderLine />
+      <HeaderLineSpacer />
       <div
         className="SectionHeader-title"
         style={{ borderColor: props.color }}

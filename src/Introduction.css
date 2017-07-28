@@ -19,12 +19,6 @@
   border-right: 10px solid #fdd475;
 }
 
-/* @media screen and (max-width: 490px) {
-  .Introduction-text-content {
-    border: 0;
-  }
-} */
-
 .Introduction-main-title {
   text-align: center;
   font-size: 3em;
@@ -42,7 +36,6 @@
 .Introduction-description {
   text-align: center;
   font-size: 1.25em;
-  /* color: #c5beba; */
   color: #92aac7;
 }
 
@@ -53,14 +46,12 @@
   margin-top: 20px;
   max-width: 470px;
   text-align: center;
-  /* font-size: 1.4em; */
    line-height: 1.7em; 
 }
 
  .Introduction-side-image-div {
    margin: 0;
    padding: 0;
-   /* border: 1px solid grey; */
    height: 340px;
    width: 612px;
    background-image: url('/trees.jpg');

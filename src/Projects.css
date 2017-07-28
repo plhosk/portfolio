@@ -2,6 +2,13 @@
   margin: 10px 0;
 }
 
+.Projects-blurb {
+  font-size: 1.1em;
+  margin: 0 auto;
+  max-width: 660px;
+  padding: 5px;
+}
+
 .Projects-list-div {
   display: flex;
   flex-flow: row wrap;
@@ -19,19 +26,15 @@
    display: flex;
    flex-flow: column nowrap;
     align-items: center; 
-   /* border: 1px solid grey; */
    width: 278px;
    margin: 10px 10px;
    padding: 10px;
    transition: all 0.2s ease;
    border-radius: 10px;
-   /* border: 10px solid white; */
 }
 
 .Projects-item-div:hover {
-   /* background-color: #f4cc70;  */
    background-color: #F7D994;
-   /* border: 10px solid #fbcd4d; */
 }
 
 .Projects-title {
@@ -44,7 +47,6 @@
 .Projects-thumbnail {
   max-width: 256px;
   border: 1px solid #ccc;
-  /* border-radius: 2px; */
 }
 
 .Projects-description {
