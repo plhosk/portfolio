@@ -37,7 +37,7 @@ const App = () => (
           }}
         >
           <Menu.Item key={1}>
-            <a href="/">
+            <a href="https://paulhoskinson.surge.sh">
               <span className="App-home App-home1">p</span>
               <span className="App-home App-home2">h</span>
             </a>
