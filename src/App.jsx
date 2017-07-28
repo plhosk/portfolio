@@ -16,7 +16,6 @@ const App = () => (
     <Layout className="App-layout">
 
       <Header>
-        { /* <img src={logo} className="App-logo" alt="logo" /> */ }
         <Menu
           theme="dark"
           mode="horizontal"
