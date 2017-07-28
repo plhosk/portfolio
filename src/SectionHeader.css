@@ -1,5 +1,7 @@
 .SectionHeader-main {
-  margin: 20px auto;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center; 
@@ -15,7 +17,7 @@
 }
 
 .SectionHeader-background-color {
-  height: 10px;
+  height: 6px;
 }
 
 .SectionHeader-title {
@@ -27,5 +29,34 @@
   border-width: 5px;
   border-style: solid;
   border-radius: 40px;
-  margin: 0 -3px;
+  /* margin: 0 -3px; */
+  margin: 0; 
+}
+
+.SectionHeader-ph {
+  font-family: 'Kanit', sans-serif;
+  font-size: 2em;
+  line-height: 1.25em;  
+  height: 48px; 
+  margin: 10px;
+  background-color: #404040;
+  padding: 4px; 
+  /* border-radius: 8px; */
+  transition: all 0.2s ease;
+}
+
+.SectionHeader-ph:hover {
+  background-color: #777;
+}
+
+.SectionHeader-ph-p {
+  color: #92aac7;
+}
+
+.SectionHeader-ph-h {
+  color: #fdd475;
+}
+
+.SectionHeader-ph-arrow {
+  color: #b3de81;
 }

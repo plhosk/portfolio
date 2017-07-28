@@ -11,7 +11,7 @@ const Introduction = () => (
         Full-stack Web Developer
       </div>
       <div className="Introduction-description">
-        Javascript . React . Node.js . HTML . CSS
+        Javascript . React . Node.js . UI/UX
       </div>
       <div className="Introduction-blurb">
         Hello, I&apos;m a web developer currently living in Victoria, BC.

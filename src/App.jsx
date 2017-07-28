@@ -52,15 +52,24 @@ const App = () => (
         <div className="App-title-divider" />
         <Introduction />
         <div className="App-title-divider" ref={(section) => { this.portfolio = section }} />
-        <SectionHeader text="Portfolio" color="#b2dbd5" />
+        <SectionHeader
+          text="Portfolio"
+          color="#b2dbd5"
+          handleClickTop={() => scrollToComponent(this.pagetop, scrollOptions)}
+        />
         <Projects />
         <div className="App-title-divider" ref={(section) => { this.contact = section }} />
-        <SectionHeader text="Contact" color="#b2dbd5" />
+        <SectionHeader
+          text="Contact"
+          color="#fe7a47"
+          handleClickTop={() => scrollToComponent(this.pagetop, scrollOptions)}
+        />
         <Contact />
       </Content>
 
-      <Footer>
-        2017 Paul Hoskinson
+      <Footer className="App-footer">
+        Site created in 2017 by Paul Hoskinson &nbsp;&nbsp;
+        <a href="https://github.com/plhosk/portfolio">GitHub</a>
       </Footer>
 
     </Layout>

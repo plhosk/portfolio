@@ -1,7 +1,8 @@
-.Contact-outer-div {
-  border: 2px solid red;
-}
+ .Contact-outer-div {
+   margin-bottom: 30px;
+} 
 
-.Contact-header {
-  border: 2px solid blue;
+.Contact-email {
+  font-size: 1.5em;
+  text-align: center;
 }
