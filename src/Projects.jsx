@@ -1,4 +1,6 @@
 import React from 'react'
+import { Spin } from 'antd'
+import Img from 'react-image'
 
 import './Projects.css'
 
@@ -106,7 +108,7 @@ const projectList = [
 const Projects = () => (
   <div className="Projects-outer-div">
     <div className="Projects-blurb">
-      Check out some of my projects below.
+      Check out some of my demo projects below.
       They range from simple Javascript demos to full-stack
       React + Redux applications with a Node.js backend and MongoDB database.
     </div>
@@ -117,10 +119,15 @@ const Projects = () => (
             <div
               className="Projects-item-div"
             >
-              <img
+              <Img
                 className="Projects-thumbnail"
                 src={project.screenshot}
                 alt={project.title}
+                loader={
+                  <div className="Projects-thumbnail-spinner">
+                    <Spin size="large" />
+                  </div>
+                }
               />
               <div className="Projects-title">
                 {project.title}
