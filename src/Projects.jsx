@@ -50,6 +50,12 @@ const projectList = [
     description: "React + Redux implementation of Conway's Game of Life",
   },
   {
+    title: 'Music of Life',
+    url: 'https://github.com/plhosk/music-of-life',
+    screenshot: '/screenshots/music-of-life.png',
+    description: 'Generate music from cellular automata (GitHub)',
+  },
+  {
     title: 'Roguelike',
     url: 'https://codepen.io/plhosk/full/EgzBQg/',
     screenshot: '/screenshots/roguelike.png',
