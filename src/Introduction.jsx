@@ -14,7 +14,7 @@ const Introduction = () => (
         Javascript . React . Node.js . UI/UX
       </div>
       <div className="Introduction-blurb">
-        Hello, I&apos;m a web developer living in Victoria, BC.
+        Hello, I&apos;m a web developer living in Vancouver, BC.
         I&apos;m interested in front- and back-end web programming
         using the latest open-source technologies.
       </div>
