@@ -27,9 +27,9 @@ const WBI = () => (
         </div>
         <div className="WBI-text">
           <div>
-            A project I completed for a bookstore chain in Edmonton, AB, this internal web app
+            A project I developed for a bookstore chain in Edmonton, AB, this internal web app
             provides several key functions, such as forum-based employee communications,
-            customer info management, and product request tracking and reporting.
+            customer info management, email/SMS notifications, and product request tracking and reporting.
             <br /><br />
             The app consists of a front-end single-page-app written using React and Redux with Ant Design UI components,
             and a Node.js back-end interfacing with MySQL and MongoDB databases.
