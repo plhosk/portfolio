@@ -38,7 +38,7 @@
     "react-dev-utils": "^3.1.1",
     "react-dom": "^15.6.1",
     "react-error-overlay": "^1.0.10",
-    "react-hot-loader": "next",
+    "react-hot-loader": "^4.0.0",
     "react-image": "^1.0.1",
     "react-scroll-to-component": "^1.0.1",
     "style-loader": "^0.18.2",

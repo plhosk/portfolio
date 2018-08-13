@@ -5,6 +5,7 @@ import scrollToComponent from 'react-scroll-to-component'
 import './App.css'
 import SectionHeader from './SectionHeader'
 import Introduction from './Introduction'
+import WBI from './WBI'
 import Projects from './Projects'
 import Contact from './Contact'
 
@@ -27,9 +28,12 @@ const App = () => (
                 scrollToComponent(this.pagetop, scrollOptions)
                 break
               case '2':
-                scrollToComponent(this.portfolio, scrollOptions)
+                scrollToComponent(this.wbi, scrollOptions)
                 break
               case '3':
+                scrollToComponent(this.portfolio, scrollOptions)
+                break
+              case '4':
                 scrollToComponent(this.contact, scrollOptions)
                 break
               default:
@@ -42,14 +46,22 @@ const App = () => (
               <span className="App-home App-home2">h</span>
             </a>
           </Menu.Item>
-          <Menu.Item key={2}>Portfolio</Menu.Item>
-          <Menu.Item key={3}>Contact</Menu.Item>
+          <Menu.Item key={2}>Showcase Project</Menu.Item>
+          <Menu.Item key={3}>Portfolio</Menu.Item>
+          <Menu.Item key={4}>Contact</Menu.Item>
         </Menu>
       </Header>
 
       <Content className="App-content">
         <div className="App-title-divider" />
         <Introduction />
+        <div className="App-title-divider" ref={(section) => { this.wbi = section }} />
+        <SectionHeader
+          text="Showcase Project"
+          color="#b2dbd5"
+          handleClickTop={() => scrollToComponent(this.pagetop, scrollOptions)}
+        />
+        <WBI />
         <div className="App-title-divider" ref={(section) => { this.portfolio = section }} />
         <SectionHeader
           text="Portfolio"

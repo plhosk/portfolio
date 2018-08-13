@@ -114,7 +114,7 @@ const projectList = [
 const Projects = () => (
   <div className="Projects-outer-div">
     <div className="Projects-blurb">
-      Check out some of my demo projects below.
+      Check out some of my other demo projects below.
       They range from simple Javascript demos to full-stack
       React + Redux applications with a Node.js backend and MongoDB database.
     </div>
