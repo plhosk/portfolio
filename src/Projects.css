@@ -46,9 +46,9 @@
 }
 
 .Projects-thumbnail {
-  width: 256px;
+  /* width: 256px; */
   height: 192px;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
 }
 
 .Projects-thumbnail-spinner {

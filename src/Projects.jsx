@@ -14,34 +14,47 @@ const projectList = [
   },
   */
   {
+    title: 'Pomodoro Go',
+    url: 'https://github.com/plhosk/pomodoro-go',
+    screenshot: '/screenshots/pomodoro-go.png',
+    description: 'Pomodoro timer mobile app for Android and iOS. Written using the Expo React Native toolchain',
+  },
+  {
+    title: 'Silhouette',
+    url: 'https://github.com/plhosk/2dscenes',
+    screenshot: '/screenshots/silhouette.png',
+    description: 'Realtime 2D graphics experiment',
+  },
+
+  {
     title: 'Interest',
     url: 'https://github.com/plhosk/interest',
     screenshot: '/screenshots/interest.png',
-    description: 'Full-stack Pinterest-style image board. View images and post your own (GitHub)',
+    description: 'Full-stack Pinterest-style image board. View images and post your own',
   },
   {
     title: 'Book Trader',
     url: 'https://github.com/plhosk/book-trader',
     screenshot: '/screenshots/book-trader.png',
-    description: 'View, add and trade books with other users (GitHub)',
+    description: 'View, add and trade books with other users',
   },
   {
     title: 'Stock Sync - Web Sockets',
     url: 'https://github.com/plhosk/stock-sync',
     screenshot: '/screenshots/stock-sync.png',
-    description: 'Create stock charts. Share changes instantly with other users using web sockets (GitHub)',
+    description: 'Create stock charts. Share changes instantly with other users using web sockets',
   },
   {
     title: 'Nightlife Coordination App',
     url: 'https://github.com/plhosk/nightlife',
     screenshot: '/screenshots/nightlife.png',
-    description: 'Find bars in your area. See where others are going & set your destination (GitHub)',
+    description: 'Find bars in your area. See where others are going & set your destination',
   },
   {
     title: 'Voting App',
     url: 'https://github.com/plhosk/voting-app',
     screenshot: '/screenshots/voting-app.png',
-    description: 'Full-stack online poll app. Vote on polls and submit your own (GitHub)',
+    description: 'Full-stack online poll app. Vote on polls and submit your own',
   },
   {
     title: "Conway's Game Of Life",
@@ -67,12 +80,6 @@ const projectList = [
   //   screenshot: '/screenshots/racetimes.png',
   //   description: 'Cycling race times: Alpe d\'Huez',
   // },
-  {
-    title: 'Pomodoro Clock',
-    url: 'https://codepen.io/plhosk/full/YGJddL/',
-    screenshot: '/screenshots/pomodoro-clock.png',
-    description: 'Maintain maximum focus and productivity by timing your work sessions and breaks',
-  },
   // {
   //   title: 'Wikipedia Explorer',
   //   url: 'https://codepen.io/plhosk/full/EgpVVa/',
