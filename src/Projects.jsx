@@ -44,12 +44,12 @@ const projectList = [
     screenshot: '/screenshots/stock-sync.png',
     description: 'Create stock charts. Share changes instantly with other users using web sockets',
   },
-  {
-    title: 'Nightlife Coordination App',
-    url: 'https://github.com/plhosk/nightlife',
-    screenshot: '/screenshots/nightlife.png',
-    description: 'Find bars in your area. See where others are going & set your destination',
-  },
+  // {
+  //   title: 'Nightlife Coordination App',
+  //   url: 'https://github.com/plhosk/nightlife',
+  //   screenshot: '/screenshots/nightlife.png',
+  //   description: 'Find bars in your area. See where others are going & set your destination',
+  // },
   {
     title: 'Voting App',
     url: 'https://github.com/plhosk/voting-app',
